@@ -10,7 +10,8 @@ router.get('/', (req: Request, res: Response)=>{
   // res.send('Olá Mundo!'); para mostrar um texto
   let user = {
     name: 'Rodolfo',
-    age: 34
+    lastName: 'Faria',
+    showWelcome: true
   };
 
   res.render('home', {

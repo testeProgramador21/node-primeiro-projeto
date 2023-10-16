@@ -6,6 +6,8 @@
   <h1>Título da página</h1>
   <hr/>
 
-  <p> Opa, {{ user.name }}, você já tem {{ user.age }} anos? </p>
+  {{#showWelcome}}
+   <p> Opa, {{ name }} {{ lastName }}, tudo bem? </p>
+  {{/showWelcome}}
 </body>
 </html>
